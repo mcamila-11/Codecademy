@@ -1,3 +1,7 @@
+// Learn JavaScript
+// Functions Lesson
+      // Return and using functions within functions
+
 var orderCount = 0;
 
 function takeOrder(topping, crustType){
@@ -5,10 +9,9 @@ function takeOrder(topping, crustType){
   orderCount = orderCount + 1;
 }
 
-takeOrder('bacon', 'thin crust');
-takeOrder('pineapple', 'thick crust');
-takeOrder('pepperoni', 'cheesy crust');
-// Order: cheesy crust pizza topped with pepperoni
+takeOrder('bacon', 'thin crust');  // Order: thin crust pizza topped with bacon
+takeOrder('pineapple', 'thick crust');  // Order: thick crust pizza topped with pineapple
+takeOrder('pepperoni', 'cheesy crust'); // Order: cheesy crust pizza topped with pepperoni
 
 console.log(orderCount); // 3
 
