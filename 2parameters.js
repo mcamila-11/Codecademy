@@ -8,6 +8,8 @@ function takeOrder(topping, crustType){
   console.log('Order: ' + crustType + ' pizza topped with ' + topping);
 }
 
-takeOrder('bacon', 'thin crust');
-takeOrder('pineapple', 'thick crust');
-takeOrder('pepperoni', 'cheesy crust');
+takeOrder('bacon', 'thin crust'); // Order: thin crust pizza topped with bacon
+takeOrder('pineapple', 'thick crust'); // Order: thick crust pizza topped with pineapple
+takeOrder('pepperoni', 'cheesy crust'); // Order: cheesy crust pizza topped with pepperoni
+
+
