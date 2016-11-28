@@ -1,7 +1,7 @@
 // Learn JavaScript
 // Functions Lesson
-// Passing in parameters to a function
-// Call the function 3 times and pass in different arguments
+      // Passing in parameters to a function
+      // Call the function 3 times and pass in different arguments
 
 
 function takeOrder(topping, crustType){
