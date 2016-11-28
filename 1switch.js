@@ -1,6 +1,6 @@
 // Learn JavaScript
 // Control Flow Lesson
-//Switch Statements 
+      //Switch Statements 
 
 
 var moonPhase = 'full';
